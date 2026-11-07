@@ -1,0 +1,23 @@
+{
+  "name": "ds-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-detect.mjs",
+    "start": "node --env-file=.env server.mjs",
+    "smoke": "node smoke.mjs",
+    "multi": "node multi.mjs",
+    "history": "node history.mjs",
+    "export-login": "node --env-file=.env export-login.mjs",
+    "models": "node models.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cloakbrowser": "^0.7.0",
+    "playwright-core": "^1.65.0"
+  }
+}
